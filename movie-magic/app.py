@@ -13,7 +13,7 @@ bookings_table = dynamodb.Table("moviebooking")
 
 sns = boto3.client('sns', region_name='us-east-1')
 
-sns_topic_arn = 'arn:aws:sns:us-east-1:216989138822:MovieTicketNotifications.fifo'
+sns_topic_arn = 'arn:aws:sns:us-east-1:879381270777:koushik.fifo'
 
 # -------- Mock Data --------
 mock_users = {}  # email: hashed_password
